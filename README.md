@@ -4,4 +4,6 @@
 <P ALIGN=CENTER><img src="images/water.jpg" style="display: block; margin-left: auto; margin-right: auto;"  width="900"/></P></div>
 
 A non-p
-<iframe width="600" height="800" src="https://datastudio.google.com/embed/reporting/1hQJa5WZSeKcSRxyNHIP6Wc-QVJFRTvLu/page/1M" frameborder="0" style="border:0" allowfullscreen></iframe>
+<script src="https://public.tableau.com/profile/mattstyslinger#!/vizhome/HDI_15539801848940/Sheet1?publish=yes"></script>
+<!-- Empty div where the viz will be placed -->
+<div id="tableauViz"></div>
