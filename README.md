@@ -20,7 +20,7 @@ The dataset:
 * Data spread is consistent over the period, with an increase of ~10% across the dataset:
 
 | Measure        | 1990 HDI scores| 2015 HDI scores| Difference|
-| -------------  |:-------------:| -------------:|
+| -------------  |:-------------:| -------------:| -------------:|
 | Mean           | 0.6        | 0.7     |
 | Std. deviation | 0.167  | 0.155 |  N/A |	
 | Minimum	|0.21	|0.35	|0.14 |
