@@ -19,6 +19,8 @@ The dataset:
 * The visualization to the right shows the annual HDI score (left to right) for each of the countries, ordered from highest to lowest 2015 HDI rank (top to bottom). The darker color represents lower scores and lighter is higher scores. White spaces are missing values.
 * Data spread is consistent over the period, with an increase of ~10% across the dataset:
 
+Inputs
+
 | Measure        | 1990 HDI scores| 2015 HDI scores| Difference|
 | -------------  |:-------------:| -----:|
 | Mean           | 0.6        | 0.7     |
