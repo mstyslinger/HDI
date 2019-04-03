@@ -18,6 +18,7 @@ The dataset:
 * Analysis was done on a CSV dataset with HDI scores for each year from 1990 (the year the index was launched) to 2015 for 188 countries. Analysis was also done on regional HDI scores, which were calculated as the average of countries within each region for each year.
 * The visualization to the right shows the annual HDI score (left to right) for each of the countries, ordered from highest to lowest 2015 HDI rank (top to bottom). The darker color represents lower scores and lighter is higher scores. White spaces are missing values.
 * Data spread is consistent over the period, with an increase of ~10% across the dataset:
+
 | Measure        | 1990 HDI scores| 2015 HDI scores| Difference|
 | -------------  |:-------------:| -----:|
 | Mean           | 0.6        | 0.7     |
