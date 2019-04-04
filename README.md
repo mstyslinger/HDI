@@ -34,7 +34,7 @@ The dataset:
          	       Zimbabwe    	                Kenya		         Swaziland	                   Lesotho
 
 <div>
-<P ALIGN=CENTER><img src="images/downturns.png" style="display: block; margin-left: auto; margin-right: auto;"  width="50"/></P></div>
+<P ALIGN=CENTER><img src="images/downtrends.png" style="display: block; margin-left: auto; margin-right: auto;"  width="50"/></P></div>
 
 Though education is considered to be strong in Zimbabwe, the economy has been consistently volatile and gross national income per capita has suffered over this period. All four countries lost at least 17 years of life expectancy from HIV/AIDS epidemic, but HDI scores have begun to recover.
 * The countries with the four highest variance in HDI scores over the 25 years are:
@@ -43,4 +43,4 @@ Though education is considered to be strong in Zimbabwe, the economy has been co
 
 Rwanda’s development has increased rapidly since the mid-90s genocide. China has seen consistent strong improvements in all categories of the HDI over the period. Mozambique had the lowest HDI score in 1990, while the civil war there was ongoing. While HDI scores have improved since, the country remains low in HDI rank. Cambodia has seen significant jumps in life expectancy and income over the period, as well as improvement in education.
 
-### Methodologies, potential for future analytical work, and a basic data visualization dashboard associated with the HDI dataset is available here: https://sites.google.com/view/hdi-1990-2015/home
+**Methodologies, potential for future analytical work, and a basic data visualization dashboard associated with the HDI dataset is available here: https://sites.google.com/view/hdi-1990-2015/home**
