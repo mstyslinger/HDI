@@ -1,7 +1,7 @@
 # Human Development Index: 1990 - 2015
 
 <div>
-<P ALIGN=CENTER><img src="images/IMG_0248 copy.jpg" style="display: block; margin-left: auto; margin-right: auto;"  width="900"/></P></div>
+<P ALIGN=CENTER><img src="images/IMG_0248-4K copy.jpg" style="display: block; margin-left: auto; margin-right: auto;"  width="900"/></P></div>
 
 
 ## Executive Summary
