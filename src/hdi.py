@@ -2,6 +2,8 @@ import numpy as np
 import pandas as pd
 import seaborn as sns; sns.set()
 import matplotlib.pyplot as plt
+from pandas.plotting import autocorrelation_plot
+from matplotlib import pyplot
 
 
 def clean(df):
@@ -15,6 +17,10 @@ def clean(df):
         df['Country'].replace(i, i.strip(), inplace=True)
     df.sort_values(by=['HDI Rank (2015)'], inplace=True)
     return df
+
+def heat_plot(df):
+    pyplot.matshow(data.loc[:, '1990':'2015'], interpolation=None, aspect='auto')
+    pyplot.show()
 
 def make_dataframes(df):
     # Define regions
@@ -81,4 +87,5 @@ if __name__ == "__main__":
     df_list = [df, df_north_america, df_latin_america, df_africa, df_mena, df_asia_pac, df_e_europe_c_asia, df_europe]
     trends = plot_trends(df_list)
     # make_csv(df_list)
+    # heat_map(df)
     # plot_trends(df_list)
