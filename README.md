@@ -9,7 +9,7 @@
 The Human Development Index (HDI) is a national-level composite measure of human development, which combines indicators on health and longevity, education, and standard of living. Country scores are normalized to a value between zero and one.
 
 <p>
-<img align="right" src="images/heatmap.png">
+<img align="right" src="images/heatmap.png" width="200">
 </p>
 
 The dataset:
