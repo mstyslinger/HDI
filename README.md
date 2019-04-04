@@ -32,6 +32,7 @@ The dataset:
 * Most regional average HDI scores are above the world average, except Sub-Saharan Africa, which is well below the world average. Asia Pacific HDI scores have hovered right around the world average. 
 * 70% of countries had no more than two years of score downturn from the previous year. Four East and Southern African countries, however, each had 10+ years of HDI score downturns:
          	       Zimbabwe    	                Kenya		         Swaziland	                   Lesotho
+
 <div>
 <P ALIGN=CENTER><img src="images/downturns.png" style="display: block; margin-left: auto; margin-right: auto;"  width="50"/></P></div>
 
