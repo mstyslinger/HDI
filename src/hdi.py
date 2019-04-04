@@ -79,6 +79,21 @@ def plot_trends(df_list):
     plt.show()
 
 
+describe_data(df):
+    df_describe = df.loc[:, '1990':'2015']
+    cols = df_describe.columns()
+    for i in cols:
+        df[i].describe()
+
+explore_variance(df):
+    df_variance = data.loc[:, 'Country':]
+    df_variance['variance'] = round(df_variance.var(axis=1), 4)
+    df_var = df_variance.sort_values(by='variance', axis=0, ascending=True)
+    df_var.reset_index(inplace=False, drop=True)
+    for idx, i in enumerate(df_var['Country']):
+        print(i, "variance: ", df_var['variance'][idx])
+
+
 if __name__ == "__main__":
 
     data = pd.read_csv('hdi_repo/src/human_development_index_HDI.csv', encoding='ISO-8859-1')
@@ -89,3 +104,5 @@ if __name__ == "__main__":
     # make_csv(df_list)
     # heat_map(df)
     # plot_trends(df_list)
+    # describe_data(df)
+    # explore_variance(df)
