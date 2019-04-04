@@ -9,12 +9,12 @@ def clean(df):
     '2009', '2010', '2011', '2012', '2013', '2014', '2015']
     # turn string numbers into numeric values
     for i in numeric:
-        data[i] = pd.to_numeric(data[i])
+        df[i] = pd.to_numeric(data[i])
     # strip superfluous spaces from names under "Country" column
     for i in data['Country']:
-        data['Country'].replace(i, i.strip(), inplace=True)
-    data.sort_values(by=['HDI Rank (2015)'], inplace=True)
-
+        df['Country'].replace(i, i.strip(), inplace=True)
+    df.sort_values(by=['HDI Rank (2015)'], inplace=True)
+    return df
 
 def make_dataframes(df):
     # Define regions
@@ -47,14 +47,30 @@ def make_csv(df_list):
         i.to_csv('hdi_repo/src/{}.csv'.format(i), index=False)
 
 
-def aggregate_trends(df_list):
-    df_trend = data.loc[:, '1990':'2015']
-    X_world_trend = df_trend.columns
-    y_world_trend_lst = []
-    for i in df_trend.columns:
-        year_mean = np.mean(df_trend[i])
-        y_world_trend_lst.append(round(year_mean, 3))
-    y_world_trend = np.array(y_world_trend_lst)
+def plot_trends(df_list):
+    fig, ax = plt.subplots(figsize=(15, 10))
+    color_lst = ["black","darkgrey","steelblue","slategrey","skyblue","seagreen","darkseagreen","darkolivegreen"]
+    plt.xticks(rotation=30)
+    yticks = np.linspace(0, 1, 11)
+    ax.set_yticks(yticks)
+    ax.set_xlabel('Year',fontsize=15);
+    ax.set_ylabel('Average HDI score',fontsize=15)
+    ax.set_title("Global HDI Trend: 1990-2015", fontsize=20)
+    ax.legend(handles=ax.lines, labels=["World","North America","Western Europe","Eastern Europe and Central Asia","Latin America and Caribbean","Asia Pacific","Africa"])
+    for idx, i in enumerate(df_list):
+        df_trend = i.loc[:, '1990':'2015']
+        X_trend = df_trend.columns
+        y_trend_lst = []
+        for x in X_trend:
+            year_mean = np.mean(df_trend[x])
+            y_trend_lst.append(round(year_mean, 3))
+        y_trend = np.array(y_trend_lst)
+        color = color_lst[idx]
+        if idx == 0:
+            sns.lineplot(x = X_trend, y = y_trend, linewidth=15, color="black")
+        else:
+            sns.pointplot(x = X_trend, y = y_trend, linewidth=3, color=color)
+    plt.show()
 
 
 if __name__ == "__main__":
@@ -63,4 +79,6 @@ if __name__ == "__main__":
     df = clean(data)
     df_north_america, df_latin_america, df_africa, df_mena, df_asia_pac, df_e_europe_c_asia, df_europe = make_dataframes(df)
     df_list = [df, df_north_america, df_latin_america, df_africa, df_mena, df_asia_pac, df_e_europe_c_asia, df_europe]
+    trends = plot_trends(df_list)
     # make_csv(df_list)
+    # plot_trends(df_list)
