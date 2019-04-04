@@ -30,19 +30,17 @@ The dataset:
 ### High-level Insights:
 * There is a steady positive trajectory of HDI scores over the 25-year period - globally, regionally, and for most countries. Eastern Europe/ Central Asia is the only region that show a slight downturn in HDI score – from the early to mid-90s after the fall of the Soviet Union. 
 * Most regional average HDI scores are above the world average, except Sub-Saharan Africa, which is well below the world average. Asia Pacific HDI scores have hovered right around the world average. 
-* 70% of countries had no more than two years of score downturn from the previous year. Four East and Southern African countries, however, each had 10+ years of HDI score downturns: <p>
-         	       Zimbabwe    	                Kenya		         Swaziland	                   Lesotho
+* 70% of countries had no more than two years of score downturn from the previous year. Four East and Southern African countries, however, each had 10+ years of HDI score downturns:
 
 <div>
 <P ALIGN=CENTER><img src="images/downtrends.png" style="display: block; margin-left: auto; margin-right: auto;"  width="700"/></P></div>
 
-Though education is considered to be strong in Zimbabwe, the economy has been consistently volatile and gross national income per capita has suffered over this period. All four countries lost at least 17 years of life expectancy from HIV/AIDS epidemic, but HDI scores have begun to recover.
+* Though education is considered to be strong in Zimbabwe, the economy has been consistently volatile and gross national income per capita has suffered over this period. All four countries lost at least 17 years of life expectancy from HIV/AIDS epidemic, but HDI scores have begun to recover.
 * The countries with the four highest variance in HDI scores over the 25 years are:
-                       Rwanda		   China		      Mozambique	                Cambodia
 
 <div>
 <P ALIGN=CENTER><img src="images/high_var.png" style="display: block; margin-left: auto; margin-right: auto;"  width="700"/></P></div>
 
-Rwanda’s development has increased rapidly since the mid-90s genocide. China has seen consistent strong improvements in all categories of the HDI over the period. Mozambique had the lowest HDI score in 1990, while the civil war there was ongoing. While HDI scores have improved since, the country remains low in HDI rank. Cambodia has seen significant jumps in life expectancy and income over the period, as well as improvement in education.
+* Rwanda’s development has increased rapidly since the mid-90s genocide. China has seen consistent strong improvements in all categories of the HDI over the period. Mozambique had the lowest HDI score in 1990, while the civil war there was ongoing. While HDI scores have improved since, the country remains low in HDI rank. Cambodia has seen significant jumps in life expectancy and income over the period, as well as improvement in education.
 
 **Methodologies, potential for future analytical work, and a basic data visualization dashboard associated with the HDI dataset is available here: https://sites.google.com/view/hdi-1990-2015/home**
