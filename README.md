@@ -32,7 +32,8 @@ The dataset:
 * Most regional average HDI scores are above the world average, except Sub-Saharan Africa, which is well below the world average. Asia Pacific HDI scores have hovered right around the world average. 
 * 70% of countries had no more than two years of score downturn from the previous year. Four East and Southern African countries, however, each had 10+ years of HDI score downturns:
          	       Zimbabwe    	                Kenya		         Swaziland	                   Losotho
-
+<div>
+<P ALIGN=CENTER><img src="images/downturns.png" style="display: block; margin-left: auto; margin-right: auto;"  width="50"/></P></div>
 
 Though education is considered to be strong in Zimbabwe, the economy has been consistently volatile and gross national income per capita has suffered over this period. All four countries lost at least 17 years of life expectancy from HIV/AIDS epidemic, but HDI scores have begun to recover.
 * The countries with the four highest variance in HDI scores over the 25 years are:
